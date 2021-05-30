@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-image: url("images/manchester-01.jpg");
+  background-size: cover;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  position: relative;
+  display: grid;
+}
+
+ul {
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+a {
+  text-align: center;
+  color: white;
+  font-family: "Franklin Gothic Medium";
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+.holder {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "sans-sarif Bold italic";
+}
+.links {
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+
+footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  background-color: lightgreen;
+}
+
+footer {
+  margin-top: 500px;
+  justify-content: center;
+  display: flex;
+  background-color: grey;
+}
+footer h2 {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  background-color: grey;
+}
